@@ -10,7 +10,7 @@ import { getVehicleBySlug, getVehicles } from "@/lib/firebase/vehicles";
 import type { Vehicle } from "@/types/vehicle";
 
 function buildVehicleImage(path: string): string {
-  return `/assets/vehicles/${path}`;
+  return `/assets/Vehicles/${path}`;
 }
 
 type VehicleViewModel = {
