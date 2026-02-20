@@ -1,7 +1,7 @@
 import { collection, doc, getDoc, getDocs, query } from "firebase/firestore";
 
-import { firestore } from "@/lib/firebase/services";
-import type { Vehicle } from "@/types/vehicle";
+import { firestore } from "./services";
+import type { Vehicle } from "../../src/types/vehicle";
 
 const VEHICLES_COLLECTION = "vehicles";
 
