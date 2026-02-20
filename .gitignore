@@ -21,5 +21,7 @@ web/firebase-service-account.json
 **/lib/
 !web/lib/
 !web/lib/**
+!web/src/lib/
+!web/src/lib/**
 **/.dart_tool/
 **/build/
