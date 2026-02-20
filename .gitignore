@@ -1,0 +1,23 @@
+# Root ignores
+node_modules/
+.firebase/
+firebase-debug.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+**/.env.*.local
+firebase-service-account.json
+web/firebase-service-account.json
+**/firebase-service-account.json
+
+# Build outputs
+**/.next/
+**/out/
+**/dist/
+**/lib/
+**/.dart_tool/
+**/build/

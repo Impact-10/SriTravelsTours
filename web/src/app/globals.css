@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Bernoru";
+  src: url("/assets/fonts/Bernoru Font/bernoru-blackultraexpanded.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Glacial Indifference";
+  src: url("/fonts/glacial/glacial-indifference.regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IM Fell";
+  src: url("/fonts/im_fell_types/im-fell-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IM Fell";
+  src: url("/fonts/im_fell_types/im-fell-italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Batangas";
+  src: url("/assets/fonts/Batangas Bold 700.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CS Roger";
+  src: url("/assets/fonts/cs_roger/CS Roger Double.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: theme("colors.surface");
+  color: theme("colors.secondary");
+}
+
+@layer utilities {
+  .font-bernoru {
+    font-family: "Bernoru", ui-sans-serif, system-ui, sans-serif;
+  }
+
+  .font-glacial {
+    font-family: "Glacial Indifference", ui-sans-serif, system-ui, sans-serif;
+  }
+
+  .font-imfell {
+    font-family: "IM Fell", ui-serif, Georgia, serif;
+  }
+
+  .font-imfell-italic {
+    font-family: "IM Fell", ui-serif, Georgia, serif;
+    font-style: italic;
+  }
+
+  .font-batangas {
+    font-family: "Batangas", ui-sans-serif, system-ui, sans-serif;
+  }
+
+  .font-cs-roger {
+    font-family: "CS Roger", ui-sans-serif, system-ui, sans-serif;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
